@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Automobile Hub</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🚗 Automobile Hub 🚛🏠</h1>
+    <p>This hub has been alive for life — connecting thousands with top-tier vehicle vendors and trusted housing estate developers. From premium trucks to luxurious duplexes, we deal in only the finest. Your next ride or home is just a click away.</p>
+  </header>
+
+  <nav>
+    <button onclick="filterGallery('all')">All</button>
+    <button onclick="filterGallery('cars')">Cars</button>
+    <button onclick="filterGallery('trucks')">Trucks</button>
+    <button onclick="filterGallery('houses')">Dope Houses</button>
+  </nav>
+
+  <section id="gallery" class="gallery"></section>
+
+  <section id="videos">
+    <h2>🚗 Car Videos</h2>
+    <div class="video-gallery">
+      <iframe width="300" height="180" src="https://www.youtube.com/embed/dlG0z1KctKc" frameborder="0" allowfullscreen></iframe>
+      <iframe width="300" height="180" src="https://www.youtube.com/embed/V3f92uOpstc" frameborder="0" allowfullscreen></iframe>
+      <iframe width="300" height="180" src="https://www.youtube.com/embed/7IQS6vnh7Ng" frameborder="0" allowfullscreen></iframe>
+      <!-- Add more videos as needed -->
+    </div>
+  </section>
+
+  <section id="calculator">
+    <h2>Investment Calculator</h2>
+    <form id="calcForm">
+      <input type="number" id="amount" placeholder="Amount (₦)" required />
+      <input type="number" id="rate" placeholder="Interest Rate (%)" required />
+      <input type="number" id="time" placeholder="Time (months)" required />
+      <button type="submit">Calculate</button>
+    </form>
+    <p id="result"></p>
+  </section>
+
+  <footer>
+    <a href="https://wa.me/2347019170750?text=Hello%2C%20I'm%20interested%20in%20this%20item.%20How%20much%20is%20it%3F" target="_blank" class="contact-btn">💬 Contact Us on WhatsApp</a>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

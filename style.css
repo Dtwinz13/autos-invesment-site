@@ -1,0 +1,19 @@
+// Replace the old galleryItems array with this:
+const galleryItems = [
+  // Cars
+  { type: 'cars', name: 'Lamborghini Aventador', img: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80' },
+  { type: 'cars', name: 'Ferrari F8 Tributo', img: 'https://images.unsplash.com/photo-1519643381401-22c77e60520e?auto=format&fit=crop&w=600&q=80' },
+  { type: 'cars', name: 'Porsche 911', img: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=600&q=80' },
+  
+  // Trucks
+  { type: 'trucks', name: 'Ford F-150 Raptor', img: 'https://images.unsplash.com/photo-1558980394-0f9cf43a91a4?auto=format&fit=crop&w=600&q=80' },
+  { type: 'trucks', name: 'Chevrolet Silverado', img: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80' },
+  { type: 'trucks', name: 'RAM 1500', img: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80' },
+  
+  // Houses
+  { type: 'houses', name: 'Modern Mansion', img: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=600&q=80' },
+  { type: 'houses', name: 'Luxury Duplex', img: 'https://images.unsplash.com/photo-1600585154340-be6161c3e5e3?auto=format&fit=crop&w=600&q=80' },
+  { type: 'houses', name: 'Beach House', img: 'https://images.unsplash.com/photo-1501183638714-4e88f7a63b64?auto=format&fit=crop&w=600&q=80' }
+];
+
+// The rest of the script.js code stays the same
